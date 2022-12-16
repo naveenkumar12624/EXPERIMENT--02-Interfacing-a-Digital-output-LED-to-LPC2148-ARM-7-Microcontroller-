@@ -115,7 +115,7 @@ Step 9: Select the hex file from the Kiel program folder and import the program 
 
 ## Kiel - Program for LED blinking ON  and  OFF (blinking)
 
-
+```c
 #include <lpc214x.h>
 
 void delay_ms(unsigned int count)
@@ -141,7 +141,7 @@ int main()
          delay_ms(1000);
     }
 }
-
+```
 
 ## Output screen shots :
 ### BEFORE BLINKING:
